@@ -1,0 +1,289 @@
+Traceback (most recent call last):
+  File "train.py", line 11, in <module>
+    import tensorflow as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "train.py", line 11, in <module>
+    import tensorflow as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Initializing TensorFlow...
+WARNING:tensorflow:From /home/tsnathan/PGGAN/tfutil.py:56: The name tf.get_default_session is deprecated. Please use tf.compat.v1.get_default_session instead.
+
+WARNING:tensorflow:From /home/tsnathan/PGGAN/tfutil.py:57: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+WARNING:tensorflow:From /home/tsnathan/PGGAN/tfutil.py:65: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/tsnathan/PGGAN/tfutil.py:72: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+Running train.train_progressive_gan()...
+Streaming data using dataset.TFRecordDataset...
+WARNING:tensorflow:From /home/tsnathan/PGGAN/dataset.py:72: The name tf.python_io.TFRecordOptions is deprecated. Please use tf.io.TFRecordOptions instead.
+
+WARNING:tensorflow:From /home/tsnathan/PGGAN/dataset.py:72: The name tf.python_io.TFRecordCompressionType is deprecated. Please use tf.compat.v1.python_io.TFRecordCompressionType instead.
+
+WARNING:tensorflow:From /home/tsnathan/PGGAN/dataset.py:73: tf_record_iterator (from tensorflow.python.lib.io.tf_record) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use eager execution and: 
+`tf.data.TFRecordDataset(path)`
+WARNING:tensorflow:From /home/tsnathan/PGGAN/dataset.py:111: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/tsnathan/PGGAN/tfutil.py:111: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+WARNING:tensorflow:From /home/tsnathan/PGGAN/tfutil.py:115: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/tsnathan/anaconda3/envs/tf_gpu/lib/python3.7/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.parse_single_example is deprecated. Please use tf.io.parse_single_example instead.
+
+WARNING:tensorflow:From /home/tsnathan/anaconda3/envs/tf_gpu/lib/python3.7/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+WARNING:tensorflow:From /home/tsnathan/anaconda3/envs/tf_gpu/lib/python3.7/site-packages/tensorflow_core/python/data/util/random_seed.py:58: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/tsnathan/PGGAN/dataset.py:131: The name tf.data.Iterator is deprecated. Please use tf.compat.v1.data.Iterator instead.
+
+WARNING:tensorflow:From /home/tsnathan/PGGAN/dataset.py:131: DatasetV1.output_types (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.data.get_output_types(dataset)`.
+WARNING:tensorflow:From /home/tsnathan/PGGAN/dataset.py:131: DatasetV1.output_shapes (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.data.get_output_shapes(dataset)`.
+WARNING:tensorflow:From /home/tsnathan/anaconda3/envs/tf_gpu/lib/python3.7/site-packages/tensorflow_core/python/data/ops/iterator_ops.py:347: Iterator.output_types (from tensorflow.python.data.ops.iterator_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.data.get_output_types(iterator)`.
+WARNING:tensorflow:From /home/tsnathan/anaconda3/envs/tf_gpu/lib/python3.7/site-packages/tensorflow_core/python/data/ops/iterator_ops.py:348: Iterator.output_shapes (from tensorflow.python.data.ops.iterator_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.data.get_output_shapes(iterator)`.
+WARNING:tensorflow:From /home/tsnathan/anaconda3/envs/tf_gpu/lib/python3.7/site-packages/tensorflow_core/python/data/ops/iterator_ops.py:350: Iterator.output_classes (from tensorflow.python.data.ops.iterator_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.data.get_output_classes(iterator)`.
+Dataset shape = [3, 256, 256]
+Dynamic range = [0, 255]
+Label size    = 0
+Constructing networks...
+WARNING:tensorflow:From /home/tsnathan/PGGAN/tfutil.py:471: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/tsnathan/PGGAN/tfutil.py:471: The name tf.AUTO_REUSE is deprecated. Please use tf.compat.v1.AUTO_REUSE instead.
+
+WARNING:tensorflow:From /home/tsnathan/PGGAN/tfutil.py:472: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/tsnathan/PGGAN/networks.py:176: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING:tensorflow:From /home/tsnathan/PGGAN/networks.py:122: The name tf.rsqrt is deprecated. Please use tf.math.rsqrt instead.
+
+WARNING:tensorflow:From /home/tsnathan/PGGAN/tfutil.py:490: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+WARNING:tensorflow:From /home/tsnathan/PGGAN/tfutil.py:491: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+WARNING:tensorflow:From /home/tsnathan/PGGAN/networks.py:103: The name tf.nn.avg_pool is deprecated. Please use tf.nn.avg_pool2d instead.
+
+
+G                           Params      OutputShape             WeightShape             
+---                         ---         ---                     ---                     
+latents_in                  -           (?, 512)                -                       
+labels_in                   -           (?, 0)                  -                       
+lod                         -           ()                      -                       
+4x4/PixelNorm               -           (?, 512)                -                       
+4x4/Dense                   4194816     (?, 512, 4, 4)          (512, 8192)             
+4x4/Conv                    2359808     (?, 512, 4, 4)          (3, 3, 512, 512)        
+ToRGB_lod6                  1539        (?, 3, 4, 4)            (1, 1, 512, 3)          
+8x8/Conv0_up                2359808     (?, 512, 8, 8)          (3, 3, 512, 512)        
+8x8/Conv1                   2359808     (?, 512, 8, 8)          (3, 3, 512, 512)        
+ToRGB_lod5                  1539        (?, 3, 8, 8)            (1, 1, 512, 3)          
+Upscale2D                   -           (?, 3, 8, 8)            -                       
+Grow_lod5                   -           (?, 3, 8, 8)            -                       
+16x16/Conv0_up              2359808     (?, 512, 16, 16)        (3, 3, 512, 512)        
+16x16/Conv1                 2359808     (?, 512, 16, 16)        (3, 3, 512, 512)        
+ToRGB_lod4                  1539        (?, 3, 16, 16)          (1, 1, 512, 3)          
+Upscale2D_1                 -           (?, 3, 16, 16)          -                       
+Grow_lod4                   -           (?, 3, 16, 16)          -                       
+32x32/Conv0_up              2359808     (?, 512, 32, 32)        (3, 3, 512, 512)        
+32x32/Conv1                 2359808     (?, 512, 32, 32)        (3, 3, 512, 512)        
+ToRGB_lod3                  1539        (?, 3, 32, 32)          (1, 1, 512, 3)          
+Upscale2D_2                 -           (?, 3, 32, 32)          -                       
+Grow_lod3                   -           (?, 3, 32, 32)          -                       
+64x64/Conv0_up              1179904     (?, 256, 64, 64)        (3, 3, 256, 512)        
+64x64/Conv1                 590080      (?, 256, 64, 64)        (3, 3, 256, 256)        
+ToRGB_lod2                  771         (?, 3, 64, 64)          (1, 1, 256, 3)          
+Upscale2D_3                 -           (?, 3, 64, 64)          -                       
+Grow_lod2                   -           (?, 3, 64, 64)          -                       
+128x128/Conv0_up            295040      (?, 128, 128, 128)      (3, 3, 128, 256)        
+128x128/Conv1               147584      (?, 128, 128, 128)      (3, 3, 128, 128)        
+ToRGB_lod1                  387         (?, 3, 128, 128)        (1, 1, 128, 3)          
+Upscale2D_4                 -           (?, 3, 128, 128)        -                       
+Grow_lod1                   -           (?, 3, 128, 128)        -                       
+256x256/Conv0_up            73792       (?, 64, 256, 256)       (3, 3, 64, 128)         
+256x256/Conv1               36928       (?, 64, 256, 256)       (3, 3, 64, 64)          
+ToRGB_lod0                  195         (?, 3, 256, 256)        (1, 1, 64, 3)           
+Upscale2D_5                 -           (?, 3, 256, 256)        -                       
+Grow_lod0                   -           (?, 3, 256, 256)        -                       
+images_out                  -           (?, 3, 256, 256)        -                       
+---                         ---         ---                     ---                     
+Total                       23044309                                                    
+
+
+D                           Params      OutputShape             WeightShape             
+---                         ---         ---                     ---                     
+images_in                   -           (?, 3, 256, 256)        -                       
+lod                         -           ()                      -                       
+FromRGB_lod0                256         (?, 64, 256, 256)       (1, 1, 3, 64)           
+256x256/Conv0               36928       (?, 64, 256, 256)       (3, 3, 64, 64)          
+256x256/Conv1_down          73856       (?, 128, 128, 128)      (3, 3, 64, 128)         
+Downscale2D                 -           (?, 3, 128, 128)        -                       
+FromRGB_lod1                512         (?, 128, 128, 128)      (1, 1, 3, 128)          
+Grow_lod0                   -           (?, 128, 128, 128)      -                       
+128x128/Conv0               147584      (?, 128, 128, 128)      (3, 3, 128, 128)        
+128x128/Conv1_down          295168      (?, 256, 64, 64)        (3, 3, 128, 256)        
+Downscale2D_1               -           (?, 3, 64, 64)          -                       
+FromRGB_lod2                1024        (?, 256, 64, 64)        (1, 1, 3, 256)          
+Grow_lod1                   -           (?, 256, 64, 64)        -                       
+64x64/Conv0                 590080      (?, 256, 64, 64)        (3, 3, 256, 256)        
+64x64/Conv1_down            1180160     (?, 512, 32, 32)        (3, 3, 256, 512)        
+Downscale2D_2               -           (?, 3, 32, 32)          -                       
+FromRGB_lod3                2048        (?, 512, 32, 32)        (1, 1, 3, 512)          
+Grow_lod2                   -           (?, 512, 32, 32)        -                       
+32x32/Conv0                 2359808     (?, 512, 32, 32)        (3, 3, 512, 512)        
+32x32/Conv1_down            2359808     (?, 512, 16, 16)        (3, 3, 512, 512)        
+Downscale2D_3               -           (?, 3, 16, 16)          -                       
+FromRGB_lod4                2048        (?, 512, 16, 16)        (1, 1, 3, 512)          
+Grow_lod3                   -           (?, 512, 16, 16)        -                       
+16x16/Conv0                 2359808     (?, 512, 16, 16)        (3, 3, 512, 512)        
+16x16/Conv1_down            2359808     (?, 512, 8, 8)          (3, 3, 512, 512)        
+Downscale2D_4               -           (?, 3, 8, 8)            -                       
+FromRGB_lod5                2048        (?, 512, 8, 8)          (1, 1, 3, 512)          
+Grow_lod4                   -           (?, 512, 8, 8)          -                       
+8x8/Conv0                   2359808     (?, 512, 8, 8)          (3, 3, 512, 512)        
+8x8/Conv1_down              2359808     (?, 512, 4, 4)          (3, 3, 512, 512)        
+Downscale2D_5               -           (?, 3, 4, 4)            -                       
+FromRGB_lod6                2048        (?, 512, 4, 4)          (1, 1, 3, 512)          
+Grow_lod5                   -           (?, 512, 4, 4)          -                       
+4x4/MinibatchStddev         -           (?, 1, 4, 4)            -                       
+4x4/Conv                    2364416     (?, 512, 4, 4)          (3, 3, 513, 512)        
+4x4/Dense0                  4194816     (?, 512)                (8192, 512)             
+4x4/Dense1                  513         (?, 1)                  (512, 1)                
+scores_out                  -           (?, 1)                  -                       
+labels_out                  -           (?, 0)                  -                       
+---                         ---         ---                     ---                     
+Total                       23052353                                                    
+
+Building TensorFlow graph...
+WARNING:tensorflow:From /home/tsnathan/PGGAN/tfutil.py:227: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/tsnathan/PGGAN/loss.py:28: The name tf.random_normal is deprecated. Please use tf.random.normal instead.
+
+WARNING:tensorflow:From /home/tsnathan/PGGAN/tfutil.py:185: The name tf.is_finite is deprecated. Please use tf.math.is_finite instead.
+
+WARNING:tensorflow:From /home/tsnathan/PGGAN/tfutil.py:188: The name tf.is_variable_initialized is deprecated. Please use tf.compat.v1.is_variable_initialized instead.
+
+WARNING:tensorflow:From /home/tsnathan/PGGAN/tfutil.py:188: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+WARNING:tensorflow:From /home/tsnathan/PGGAN/loss.py:58: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/tsnathan/PGGAN/tfutil.py:299: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+Setting up snapshot image grid...
+2020-04-13 12:25:50.922780: W tensorflow/stream_executor/cuda/redzone_allocator.cc:312] Not found: ./bin/ptxas not found
+Relying on driver to perform ptx compilation. This message will be only logged once.
+Setting up result dir...
+Saving results to results/002-pganicy-preset-v2-1gpu-fp32
+WARNING:tensorflow:From /home/tsnathan/PGGAN/train.py:203: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+Training...
+tick 1     kimg 160.3    lod 6.00  minibatch 128  time 2m 49s       sec/tick 169.0   sec/kimg 1.05    maintenance 20.1
+WARNING:tensorflow:From /home/tsnathan/PGGAN/tfutil.py:173: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+WARNING:tensorflow:From /home/tsnathan/PGGAN/tfutil.py:206: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+tick 2     kimg 320.5    lod 6.00  minibatch 128  time 5m 37s       sec/tick 163.3   sec/kimg 1.02    maintenance 4.2
+tick 3     kimg 480.8    lod 6.00  minibatch 128  time 8m 24s       sec/tick 167.2   sec/kimg 1.04    maintenance 0.1
+tick 4     kimg 621.1    lod 5.97  minibatch 128  time 12m 34s      sec/tick 249.7   sec/kimg 1.78    maintenance 0.1
+tick 5     kimg 761.3    lod 5.73  minibatch 128  time 25m 59s      sec/tick 804.7   sec/kimg 5.74    maintenance 0.3
+tick 6     kimg 901.6    lod 5.50  minibatch 128  time 39m 22s      sec/tick 802.8   sec/kimg 5.72    maintenance 0.1
+tick 7     kimg 1041.9   lod 5.26  minibatch 128  time 52m 45s      sec/tick 803.1   sec/kimg 5.72    maintenance 0.1
+tick 8     kimg 1182.2   lod 5.03  minibatch 128  time 1h 06m 07s   sec/tick 802.6   sec/kimg 5.72    maintenance 0.1
+tick 9     kimg 1322.5   lod 5.00  minibatch 128  time 1h 19m 14s   sec/tick 786.0   sec/kimg 5.60    maintenance 0.1
+tick 10    kimg 1462.8   lod 5.00  minibatch 128  time 1h 31m 52s   sec/tick 758.3   sec/kimg 5.41    maintenance 0.1
+tick 11    kimg 1603.1   lod 5.00  minibatch 128  time 1h 43m 31s   sec/tick 697.5   sec/kimg 4.97    maintenance 0.9
+tick 12    kimg 1743.4   lod 5.00  minibatch 128  time 1h 55m 06s   sec/tick 695.5   sec/kimg 4.96    maintenance 0.1
+tick 13    kimg 1863.7   lod 4.89  minibatch 128  time 2h 17m 03s   sec/tick 1316.6  sec/kimg 10.94   maintenance 0.2
+tick 14    kimg 1984.0   lod 4.69  minibatch 128  time 2h 48m 48s   sec/tick 1904.4  sec/kimg 15.83   maintenance 0.4
+tick 15    kimg 2104.3   lod 4.49  minibatch 128  time 3h 20m 12s   sec/tick 1883.7  sec/kimg 15.66   maintenance 0.2
+tick 16    kimg 2224.6   lod 4.29  minibatch 128  time 3h 51m 27s   sec/tick 1875.6  sec/kimg 15.59   maintenance 0.2
+tick 17    kimg 2345.0   lod 4.09  minibatch 128  time 4h 22m 50s   sec/tick 1882.6  sec/kimg 15.65   maintenance 0.2
+tick 18    kimg 2465.3   lod 4.00  minibatch 128  time 4h 54m 03s   sec/tick 1872.4  sec/kimg 15.56   maintenance 0.1
+tick 19    kimg 2585.6   lod 4.00  minibatch 128  time 5h 25m 23s   sec/tick 1879.7  sec/kimg 15.62   maintenance 0.2
+tick 20    kimg 2705.9   lod 4.00  minibatch 128  time 5h 56m 45s   sec/tick 1881.8  sec/kimg 15.64   maintenance 0.2
+tick 21    kimg 2826.2   lod 4.00  minibatch 128  time 6h 27m 42s   sec/tick 1856.9  sec/kimg 15.43   maintenance 0.4
+tick 22    kimg 2946.6   lod 4.00  minibatch 128  time 6h 58m 45s   sec/tick 1863.1  sec/kimg 15.48   maintenance 0.2
+tick 23    kimg 3046.7   lod 3.92  minibatch 64   time 7h 53m 31s   sec/tick 3286.0  sec/kimg 32.83   maintenance 0.2
+tick 24    kimg 3146.8   lod 3.76  minibatch 64   time 9h 21m 31s   sec/tick 5279.2  sec/kimg 52.74   maintenance 0.7
+tick 25    kimg 3246.8   lod 3.59  minibatch 64   time 10h 49m 18s  sec/tick 5266.6  sec/kimg 52.62   maintenance 0.2
+tick 26    kimg 3346.9   lod 3.42  minibatch 64   time 12h 17m 14s  sec/tick 5275.4  sec/kimg 52.70   maintenance 0.2
+tick 27    kimg 3447.0   lod 3.26  minibatch 64   time 13h 44m 48s  sec/tick 5253.6  sec/kimg 52.49   maintenance 0.2
+tick 28    kimg 3547.1   lod 3.09  minibatch 64   time 15h 12m 36s  sec/tick 5268.6  sec/kimg 52.64   maintenance 0.2
+tick 29    kimg 3647.2   lod 3.00  minibatch 64   time 16h 39m 37s  sec/tick 5220.5  sec/kimg 52.15   maintenance 0.2
+tick 30    kimg 3747.3   lod 3.00  minibatch 64   time 18h 06m 17s  sec/tick 5199.6  sec/kimg 51.95   maintenance 0.2
+tick 31    kimg 3847.4   lod 3.00  minibatch 64   time 19h 32m 37s  sec/tick 5179.6  sec/kimg 51.75   maintenance 0.4
+tick 32    kimg 3947.5   lod 3.00  minibatch 64   time 20h 58m 53s  sec/tick 5176.0  sec/kimg 51.71   maintenance 0.2
+tick 33    kimg 4047.6   lod 3.00  minibatch 64   time 22h 25m 16s  sec/tick 5182.3  sec/kimg 51.77   maintenance 0.2
+tick 34    kimg 4147.7   lod 3.00  minibatch 64   time 23h 51m 13s  sec/tick 5157.2  sec/kimg 51.52   maintenance 0.2
+tick 35    kimg 4227.7   lod 2.95  minibatch 32   time 1d 01h 33m   sec/tick 6115.4  sec/kimg 76.44   maintenance 0.2
+tick 36    kimg 4307.7   lod 2.82  minibatch 32   time 1d 04h 18m   sec/tick 9910.9  sec/kimg 123.89  maintenance 0.9
+tick 37    kimg 4387.7   lod 2.69  minibatch 32   time 1d 07h 05m   sec/tick 10053.6 sec/kimg 125.67  maintenance 0.4
+tick 38    kimg 4467.7   lod 2.55  minibatch 32   time 1d 09h 53m   sec/tick 10032.5 sec/kimg 125.41  maintenance 0.4
+tick 39    kimg 4547.7   lod 2.42  minibatch 32   time 1d 12h 39m   sec/tick 9992.0  sec/kimg 124.90  maintenance 0.4
+tick 40    kimg 4627.7   lod 2.29  minibatch 32   time 1d 15h 25m   sec/tick 9970.1  sec/kimg 124.63  maintenance 0.3
+tick 41    kimg 4707.7   lod 2.15  minibatch 32   time 1d 18h 09m   sec/tick 9841.4  sec/kimg 123.02  maintenance 0.6
+tick 42    kimg 4787.7   lod 2.02  minibatch 32   time 1d 20h 55m   sec/tick 9946.9  sec/kimg 124.34  maintenance 0.4
+tick 43    kimg 4867.7   lod 2.00  minibatch 32   time 1d 23h 38m   sec/tick 9748.3  sec/kimg 121.85  maintenance 0.3
+tick 44    kimg 4947.7   lod 2.00  minibatch 32   time 2d 02h 22m   sec/tick 9857.0  sec/kimg 123.21  maintenance 0.4
+tick 45    kimg 5027.7   lod 2.00  minibatch 32   time 2d 05h 07m   sec/tick 9932.9  sec/kimg 124.16  maintenance 0.4
+tick 46    kimg 5107.7   lod 2.00  minibatch 32   time 2d 07h 55m   sec/tick 10021.2 sec/kimg 125.26  maintenance 0.4
+tick 47    kimg 5187.7   lod 2.00  minibatch 32   time 2d 10h 38m   sec/tick 9829.2  sec/kimg 122.86  maintenance 0.3
+tick 48    kimg 5267.7   lod 2.00  minibatch 32   time 2d 13h 22m   sec/tick 9844.2  sec/kimg 123.05  maintenance 0.4
+tick 49    kimg 5347.7   lod 2.00  minibatch 32   time 2d 16h 07m   sec/tick 9852.8  sec/kimg 123.16  maintenance 0.4
+tick 50    kimg 5407.7   lod 1.99  minibatch 16   time 2d 18h 20m   sec/tick 8020.6  sec/kimg 133.61  maintenance 0.4
+tick 51    kimg 5467.8   lod 1.89  minibatch 16   time 2d 21h 48m   sec/tick 12432.0 sec/kimg 207.09  maintenance 2.1
+tick 52    kimg 5527.8   lod 1.79  minibatch 16   time 3d 01h 13m   sec/tick 12307.0 sec/kimg 205.01  maintenance 0.6
+tick 53    kimg 5587.8   lod 1.69  minibatch 16   time 3d 04h 38m   sec/tick 12325.3 sec/kimg 205.31  maintenance 0.6
+tick 54    kimg 5647.9   lod 1.59  minibatch 16   time 3d 08h 09m   sec/tick 12624.6 sec/kimg 210.30  maintenance 0.6
+tick 55    kimg 5707.9   lod 1.49  minibatch 16   time 3d 11h 36m   sec/tick 12440.5 sec/kimg 207.23  maintenance 0.7
+tick 56    kimg 5767.9   lod 1.39  minibatch 16   time 3d 15h 03m   sec/tick 12448.0 sec/kimg 207.36  maintenance 0.6
+tick 57    kimg 5828.0   lod 1.29  minibatch 16   time 3d 18h 31m   sec/tick 12443.9 sec/kimg 207.29  maintenance 0.7
+tick 58    kimg 5888.0   lod 1.19  minibatch 16   time 3d 21h 58m   sec/tick 12455.2 sec/kimg 207.48  maintenance 0.7
+tick 59    kimg 5948.0   lod 1.09  minibatch 16   time 4d 01h 28m   sec/tick 12556.7 sec/kimg 209.17  maintenance 0.7
+tick 60    kimg 6008.1   lod 1.00  minibatch 16   time 4d 04h 55m   sec/tick 12466.8 sec/kimg 207.67  maintenance 0.7
+tick 61    kimg 6068.1   lod 1.00  minibatch 16   time 4d 08h 17m   sec/tick 12095.3 sec/kimg 201.48  maintenance 0.9
+tick 62    kimg 6128.1   lod 1.00  minibatch 16   time 4d 11h 38m   sec/tick 12027.2 sec/kimg 200.35  maintenance 0.7
+tick 63    kimg 6188.2   lod 1.00  minibatch 16   time 4d 15h 00m   sec/tick 12168.9 sec/kimg 202.71  maintenance 0.7
+tick 64    kimg 6248.2   lod 1.00  minibatch 16   time 4d 18h 22m   sec/tick 12127.0 sec/kimg 202.01  maintenance 0.7
+tick 65    kimg 6308.2   lod 1.00  minibatch 16   time 4d 21h 44m   sec/tick 12074.2 sec/kimg 201.13  maintenance 0.7
+tick 66    kimg 6368.3   lod 1.00  minibatch 16   time 5d 01h 02m   sec/tick 11883.3 sec/kimg 197.95  maintenance 0.7
+tick 67    kimg 6428.3   lod 1.00  minibatch 16   time 5d 04h 19m   sec/tick 11852.6 sec/kimg 197.44  maintenance 0.7
+tick 68    kimg 6488.3   lod 1.00  minibatch 16   time 5d 07h 39m   sec/tick 11977.4 sec/kimg 199.52  maintenance 0.7
+tick 69    kimg 6548.4   lod 1.00  minibatch 16   time 5d 10h 59m   sec/tick 12003.3 sec/kimg 199.95  maintenance 0.7
+2020-04-19 02:18:38.770364: W tensorflow/core/common_runtime/bfc_allocator.cc:239] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.14GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+tick 70    kimg 6600.1   lod 1.00  minibatch 8    time 5d 13h 52m   sec/tick 10403.4 sec/kimg 201.06  maintenance 0.7
+tick 71    kimg 6640.1   lod 0.93  minibatch 8    time 5d 17h 36m   sec/tick 13394.3 sec/kimg 334.86  maintenance 1.2
+tick 72    kimg 6680.1   lod 0.87  minibatch 8    time 5d 21h 16m   sec/tick 13212.6 sec/kimg 330.31  maintenance 1.1
+tick 73    kimg 6720.1   lod 0.80  minibatch 8    time 6d 00h 52m   sec/tick 12961.2 sec/kimg 324.03  maintenance 1.2
+tick 74    kimg 6760.1   lod 0.73  minibatch 8    time 6d 04h 29m   sec/tick 13013.4 sec/kimg 325.34  maintenance 1.2
+tick 75    kimg 6800.1   lod 0.67  minibatch 8    time 6d 08h 09m   sec/tick 13213.0 sec/kimg 330.32  maintenance 1.2
+tick 76    kimg 6840.1   lod 0.60  minibatch 8    time 6d 11h 50m   sec/tick 13250.4 sec/kimg 331.26  maintenance 1.2
+tick 77    kimg 6880.1   lod 0.53  minibatch 8    time 6d 15h 33m   sec/tick 13394.5 sec/kimg 334.86  maintenance 1.2
+tick 78    kimg 6920.1   lod 0.47  minibatch 8    time 6d 19h 17m   sec/tick 13442.2 sec/kimg 336.06  maintenance 1.2
+tick 79    kimg 6960.1   lod 0.40  minibatch 8    time 6d 22h 58m   sec/tick 13243.5 sec/kimg 331.09  maintenance 1.2
+tick 80    kimg 7000.1   lod 0.33  minibatch 8    time 7d 02h 33m   sec/tick 12895.3 sec/kimg 322.38  maintenance 1.2
+tick 81    kimg 7040.1   lod 0.27  minibatch 8    time 7d 06h 08m   sec/tick 12896.8 sec/kimg 322.42  maintenance 1.4
+tick 82    kimg 7080.1   lod 0.20  minibatch 8    time 7d 09h 44m   sec/tick 12982.5 sec/kimg 324.56  maintenance 1.2
+tick 83    kimg 7120.1   lod 0.13  minibatch 8    time 7d 13h 22m   sec/tick 13044.6 sec/kimg 326.12  maintenance 1.2
+tick 84    kimg 7160.1   lod 0.07  minibatch 8    time 7d 17h 00m   sec/tick 13103.0 sec/kimg 327.57  maintenance 1.2
+tick 85    kimg 7200.1   lod 0.00  minibatch 8    time 7d 20h 42m   sec/tick 13295.1 sec/kimg 332.38  maintenance 1.2
+tick 86    kimg 7240.1   lod 0.00  minibatch 8    time 8d 00h 16m   sec/tick 12827.6 sec/kimg 320.69  maintenance 1.2
+tick 87    kimg 7280.1   lod 0.00  minibatch 8    time 8d 03h 47m   sec/tick 12679.8 sec/kimg 316.99  maintenance 1.2
+tick 88    kimg 7320.1   lod 0.00  minibatch 8    time 8d 07h 20m   sec/tick 12765.9 sec/kimg 319.15  maintenance 1.2
+tick 89    kimg 7360.1   lod 0.00  minibatch 8    time 8d 10h 51m   sec/tick 12650.1 sec/kimg 316.25  maintenance 1.2
+tick 90    kimg 7400.1   lod 0.00  minibatch 8    time 8d 14h 22m   sec/tick 12690.2 sec/kimg 317.26  maintenance 1.2
+tick 91    kimg 7440.1   lod 0.00  minibatch 8    time 8d 17h 55m   sec/tick 12771.0 sec/kimg 319.28  maintenance 1.4
+tick 92    kimg 7480.1   lod 0.00  minibatch 8    time 8d 21h 28m   sec/tick 12765.6 sec/kimg 319.14  maintenance 1.2
+tick 93    kimg 7520.1   lod 0.00  minibatch 8    time 9d 01h 00m   sec/tick 12706.4 sec/kimg 317.66  maintenance 1.2
+tick 94    kimg 7560.1   lod 0.00  minibatch 8    time 9d 04h 32m   sec/tick 12766.1 sec/kimg 319.15  maintenance 1.2
+tick 95    kimg 7600.1   lod 0.00  minibatch 8    time 9d 08h 06m   sec/tick 12811.7 sec/kimg 320.29  maintenance 1.2
